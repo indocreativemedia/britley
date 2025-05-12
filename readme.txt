@@ -1,16 +1,17 @@
 === Britley ===
 
-Contributors: IndoCreativeMedia
-Tags: blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-Requires PHP: 7.2
-Requires CP: 1.4
-Stable tag: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-
 == Description ==
 
 Britley, anagram of Liberty, is a clean simple responsive ClassicPress theme based on Bootstrap framework.
+
+== Theme Info ==
+* Author: IndoCreativeMedia
+* Requires PHP: 7.4
+* Requires CP: 1.4
+* Version: 1.1.0
+* Tags: blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+* License: GNU General Public License v2 or later
+* License URI: LICENSE
 
 == Demo ==
 
@@ -18,7 +19,11 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 
 == Changelog ==
 
-= 1.0 =
+= 1.1.0 =
+* Bootstrap updated to version 5.3.6
+* jQuery removed
+
+= 1.0.0 =
 * Initial release
 
 == Credits ==
