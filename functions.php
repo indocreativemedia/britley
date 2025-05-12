@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', '1.1.0' );
 }
 
 /**
@@ -103,7 +103,6 @@ add_action( 'widgets_init', 'britley_widgets_init' );
 function britley_scripts() {
 	wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri() . '/css/bootstrap.min.css', array(), _S_VERSION );
 	wp_enqueue_style( 'theme-styles', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'bootstrap-scripts', get_template_directory_uri() . '/js/bootstrap.bundle.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/js/theme.js', array(), _S_VERSION, true );
 
@@ -119,7 +118,7 @@ add_action( 'wp_enqueue_scripts', 'britley_scripts' );
 require get_template_directory() . '/inc/template-tags.php';
 
 /**
- * Functions which enhance the theme by hooking into WordPress.
+ * Functions which enhance the theme by hooking into ClassicPress.
  */
 require get_template_directory() . '/inc/template-functions.php';
 
