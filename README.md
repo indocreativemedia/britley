@@ -4,7 +4,7 @@ Requires PHP: 7.4
 
 Requires CP: 1.4
 
-Version: 1.1.0
+Version: 1.1.1
 
 Author: IndoCreativeMedia
 
@@ -62,7 +62,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Credits
-* Based on Underscores: https://underscores.me/, (C) 2012-2020 Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
+* Based on Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
 * Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
 
