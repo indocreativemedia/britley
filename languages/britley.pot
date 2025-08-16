@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Britley\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-29 12:55+0000\n"
+"POT-Creation-Date: 2025-08-16 06:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -53,10 +53,10 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#. %s: Name of current post. Only visible to screen readers
-#: template-parts/content.php:39
+#. %s: Post title. Only visible to screen readers.
+#: template-parts/content.php:42
 #, php-format
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgid "Continue reading %s"
 msgstr ""
 
 #: inc/template-tags.php:196
@@ -129,7 +129,7 @@ msgstr ""
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: template-parts/content.php:52 template-parts/content-single.php:36
+#: template-parts/content.php:50 template-parts/content-single.php:36
 #: template-parts/content-page.php:25
 msgid "Pages:"
 msgstr ""

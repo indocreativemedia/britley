@@ -3,7 +3,7 @@ Theme Name: Britley
 Theme URI: https://www.indocreativemedia.com/free-classicpress-themes/
 Author: IndoCreativeMedia
 Author URI: https://www.indocreativemedia.com/free-classicpress-themes/
-Version: 1.1.1
+Version: 1.2.0
 Requires PHP: 7.4
 Requires CP: 1.4
 License: GNU General Public License v2 or later
@@ -22,6 +22,10 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	--bs-navbar-nav-link-padding-x: .75rem;
 	--bs-nav-link-padding-y: .25rem;
 	--bs-border-radius: 0;
+	--bs-border-radius-sm: 0;
+	--bs-border-radius-lg: 0;
+	--bs-border-radius-xl: 0;
+	--bs-border-radius-xxl: 0;
 }
 
 body {
