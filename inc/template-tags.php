@@ -192,26 +192,26 @@ if ( ! function_exists( 'britley_add_site_info' ) ) {
 		$blog_description = get_bloginfo( 'description' );
 
 		$site_info = sprintf(
-		  '%1$s &copy;%2$s <a href="%3$s">%4$s</a>',
-		  esc_html__( 'Copyright', 'britley' ),
-		  esc_html( wp_date( 'Y' ) ),
-		  esc_url( home_url( '/' ) ),
-		  esc_html( get_bloginfo( 'name' ) )
+			'%1$s &copy;%2$s <a href="%3$s">%4$s</a>',
+			esc_html__( 'Copyright', 'britley' ),
+			esc_html( date_i18n( 'Y' ) ),
+			esc_url( home_url( '/' ) ),
+			esc_html( get_bloginfo( 'name' ) )
 		);
 
 		if ( ! empty( $blog_description ) ) {
-		  $site_info .= sprintf(
-		    ' &mdash; <a href="%1$s">%2$s</a>',
-		    esc_url( home_url( '/' ) ),
-		    esc_html( $blog_description )
-		  );
+			$site_info .= sprintf(
+				' &mdash; <a href="%1$s">%2$s</a>',
+				esc_url( home_url( '/' ) ),
+				esc_html( $blog_description )
+			);
 		}
 
 		$site_info .= sprintf(
-		  '<br>%1$s <a href="https://www.classicpress.net/" target="_blank">ClassicPress</a> &amp; <a href="%2$s" target="_blank">%3$s</a>',
-		  esc_html__( 'Powered by', 'britley' ),
-		  'https://www.indocreativemedia.com/free-classicpress-themes/',
-		  'Britley ClassicPress Theme'
+			'<br>%1$s <a href="https://www.classicpress.net/" target="_blank">ClassicPress</a> &amp; <a href="%2$s" target="_blank">%3$s</a>',
+			esc_html__( 'Powered by', 'britley' ),
+			'https://www.indocreativemedia.com/free-classicpress-themes/',
+			'Britley ClassicPress Theme'
 		);
 
 		echo apply_filters( 'britley_site_info_content', $site_info ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
@@ -221,13 +221,13 @@ if ( ! function_exists( 'britley_add_site_info' ) ) {
 
 if ( ! function_exists( 'britley_navigation_markup' ) ) {
 	function britley_navigation_markup( $template ) {
-	    $custom_template = '
-	    <nav class="navigation pb-1 %1$s" role="navigation">
-	        <h2 class="screen-reader-text">%2$s</h2>
-	        <div class="nav-links d-flex justify-content-between">%3$s</div>
-	    </nav>';
-	    
-	    return $custom_template;
+			$custom_template = '
+			<nav class="navigation pb-1 %1$s" role="navigation">
+					<h2 class="screen-reader-text">%2$s</h2>
+					<div class="nav-links d-flex justify-content-between">%3$s</div>
+			</nav>';
+			
+			return $custom_template;
 	}
 }
 add_filter( 'navigation_markup_template', 'britley_navigation_markup' );
@@ -240,6 +240,20 @@ if ( ! function_exists( 'britley_add_form_select_class' ) ) {
 	}
 }
 add_filter('wp_dropdown_cats', 'britley_add_form_select_class');
+
+// Polyfill for ClassicPress prior to v2.0
+if ( ! function_exists( 'wp_unique_id' ) ) {
+	/**
+	 * Generate a unique ID.
+	 * @param string $prefix Optional. Prefix for the ID. Default empty.
+	 * @return string Unique ID.
+	 */
+	function wp_unique_id( $prefix = '' ) {
+		static $id_counter = 0;
+		$id_counter++;
+		return $prefix . $id_counter;
+	}
+}
 
 if ( ! function_exists( 'britley_custom_search_form' ) ) {
 	function britley_custom_search_form( $form ) {
