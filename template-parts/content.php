@@ -6,7 +6,6 @@
  *
  * @package Britley
  */
-
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'pt-2 mb-4 pb-4 border-bottom' ); ?>>
@@ -42,7 +41,7 @@
 							__( 'Continue reading %s', 'britley' ),
 							array()
 						),
-						'<span class="screen-reader-text d-block">' . wp_kses_post( get_the_title() ) . '</span>'
+						'<span class="screen-reader-text">' . wp_kses_post( get_the_title() ) . '</span>'
 					)
 				);
 				wp_link_pages(
