@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Britley\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-16 06:49+0000\n"
+"POT-Creation-Date: 2025-09-01 09:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: inc/template-tags.php:251
+#: inc/template-tags.php:265
 msgctxt "aria label"
 msgid "Search for:"
 msgstr ""
@@ -69,6 +69,11 @@ msgstr ""
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
+#. Name of the template
+#: page-fullwidth.php:2
+msgid "Full-Width Template"
+msgstr ""
+
 #. URI of the theme
 #. Author URI of the theme
 msgid "https://www.indocreativemedia.com/free-classicpress-themes/"
@@ -90,7 +95,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: inc/template-tags.php:249
+#: inc/template-tags.php:263
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
@@ -134,7 +139,7 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: inc/template-tags.php:251
+#: inc/template-tags.php:265
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr ""
@@ -198,12 +203,12 @@ msgid ""
 "different keywords."
 msgstr ""
 
-#: inc/template-tags.php:252
+#: inc/template-tags.php:266
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: inc/template-tags.php:252
+#: inc/template-tags.php:266
 msgctxt "submit button aria label"
 msgid "Submit search"
 msgstr ""

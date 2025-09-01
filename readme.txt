@@ -6,9 +6,9 @@ Britley, anagram of Liberty, is a clean simple responsive ClassicPress theme bas
 
 == Theme Info ==
 * Author: IndoCreativeMedia
+* Version: 1.3.0
 * Requires PHP: 7.4
 * Requires CP: 1.4
-* Version: 1.2.0
 * Tags: blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 * License: GNU General Public License v2 or later
 * License URI: LICENSE
@@ -18,6 +18,11 @@ Britley, anagram of Liberty, is a clean simple responsive ClassicPress theme bas
 Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 
 == Changelog ==
+
+= 1.3.0 =
+* Backward compatibility fix for ClassicPress version 1.x
+* Add full-width page template
+* Improve image layout spacing
 
 = 1.2.0 =
 * Display post excerpt if exist, in place of post content
@@ -38,6 +43,7 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 * Based on Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
 * Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
+* Theme screenshot image: Closeup of twisted marshmallow background, https://pxhere.com/en/photo/1446207 (CC0 Public Domain)
 
 == Support ==
 

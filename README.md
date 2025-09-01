@@ -1,10 +1,10 @@
 # Britley ClassicPress Theme
 
+Version: 1.3.0
+
 Requires PHP: 7.4
 
 Requires CP: 1.4
-
-Version: 1.2.0
 
 Author: IndoCreativeMedia
 
@@ -65,6 +65,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 * Based on Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
 * Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
+* Theme screenshot image: Closeup of twisted marshmallow background, https://pxhere.com/en/photo/1446207 (CC0 Public Domain)
 
 ## Support
 Support us so we can continue improving and creating more valuable resources for everyone.
