@@ -1,26 +1,24 @@
 # Britley ClassicPress Theme
 
-Version: 1.3.0
-
-Requires PHP: 7.4
-
-Requires CP: 1.4
-
-Author: IndoCreativeMedia
-
-Tags: blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-License: GNU General Public License v2 or later
-
-Text domain: britley
+**Version:** 1.3.1  
+**Requires PHP:** 7.4  
+**Requires CP:** 1.4  
+**Tested up to:** 2.5.0  
+**Author:** IndoCreativeMedia  
+**Tags:** blog, two-columns, right-sidebar, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready  
+**License:** GNU General Public License v2 or later  
+**Text domain:** britley
 
 ## Description
+
 Britley, anagram of Liberty, is a clean simple responsive ClassicPress theme based on Bootstrap framework.
 
 ## Demo
+
 Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 
 ## Features
+
 - Fully responsive design
 - SEO-friendly structure
 - Customizable logo image and sidebar
@@ -29,6 +27,7 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 - Instantly familiar and easy to use
 
 ## Installation
+
 1. Download the theme ZIP file.
 2. Log in to your ClassicPress dashboard.
 3. Navigate to **Appearance > Themes**.
@@ -37,11 +36,43 @@ Theme Demo: https://www.indocreativemedia.com/classicpress-themes-demo/britley/
 6. Activate the theme after installation.
 
 ## Customization
+
 - Use the **Customizer** (Appearance > Customize) to tweak appearance.
-- Modify the `style.css` and `functions.php` for advanced customizations.
-- Add custom templates in the theme folder if needed.
+
+## Changelog
+
+### 1.3.1
+
+* Bootstrap updated to version 5.3.8
+* Improve post thumbnail (size and alt text)
+* Visual improvements (input, textarea, iframe, posts & comments navigation, line and spacing)
+
+### 1.3.0
+
+* Backward compatibility fix for ClassicPress version 1.x
+* Add full-width page template
+* Improve image layout spacing
+
+### 1.2.0
+
+* Display post excerpt if exist, in place of post content
+* Fix and improve "Continue reading" link
+
+### 1.1.1
+
+* Bootstrap updated to version 5.3.7
+
+### 1.1.0
+
+* Bootstrap updated to version 5.3.6
+* jQuery removed
+
+### 1.0.0
+
+* Initial release
 
 ## License
+
 This theme is licensed under the **GNU General Public License v2.0 or later**.
 
 ```
@@ -62,12 +93,14 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Credits
-* Based on Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
+
+* Underscores: https://underscores.me/, (c) Automattic, Inc., https://www.gnu.org/licenses/gpl-2.0.html (GPLv2 or later)
 * Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
 * BS5-Navwalker: https://github.com/imanishpushkar/bs5-navwalker/blob/master/LICENSE.md (MIT)
 * Theme screenshot image: Closeup of twisted marshmallow background, https://pxhere.com/en/photo/1446207 (CC0 Public Domain)
 
-## Support
+## Donate
+
 Support us so we can continue improving and creating more valuable resources for everyone.
 
 https://ko-fi.com/indocreativemedia
