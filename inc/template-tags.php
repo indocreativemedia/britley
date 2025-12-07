@@ -137,7 +137,18 @@ if ( ! function_exists( 'britley_post_thumbnail' ) ) {
 			?>
 
 			<div class="post-thumbnail mb-4 text-center">
-				<?php the_post_thumbnail(); ?>
+				<?php
+					the_post_thumbnail(
+						'full',
+						array(
+							'alt' => the_title_attribute(
+								array(
+									'echo' => false,
+								)
+							),
+						)
+					);
+				?>
 			</div><!-- .post-thumbnail -->
 
 		<?php else : ?>
@@ -145,7 +156,7 @@ if ( ! function_exists( 'britley_post_thumbnail' ) ) {
 			<a class="post-thumbnail d-block text-center mb-4" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
 				<?php
 					the_post_thumbnail(
-						'post-thumbnail',
+						'large',
 						array(
 							'alt' => the_title_attribute(
 								array(
@@ -222,7 +233,7 @@ if ( ! function_exists( 'britley_add_site_info' ) ) {
 if ( ! function_exists( 'britley_navigation_markup' ) ) {
 	function britley_navigation_markup( $template ) {
 			$custom_template = '
-			<nav class="navigation pb-1 %1$s" role="navigation">
+			<nav class="navigation %1$s" role="navigation">
 					<h2 class="screen-reader-text">%2$s</h2>
 					<div class="nav-links d-flex justify-content-between">%3$s</div>
 			</nav>';

@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.3.0' );
+	define( '_S_VERSION', '1.3.1' );
 }
 
 /**
@@ -73,7 +73,7 @@ add_action( 'after_setup_theme', 'britley_setup' );
  * @global int $content_width
  */
 function britley_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'britley_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'britley_content_width', 958 );
 }
 add_action( 'after_setup_theme', 'britley_content_width', 0 );
 
@@ -131,4 +131,3 @@ require get_template_directory() . '/inc/customizer.php';
  * Menu navwalker.
  */
 require get_template_directory() . '/inc/navwalker.php';
-
